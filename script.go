@@ -8,7 +8,6 @@ import (
 		"net/http"
 		"bytes"
 		"io/ioutil"
-		"strconv"
 )
 
 const username = "***"
