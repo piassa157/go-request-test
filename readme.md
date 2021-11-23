@@ -56,7 +56,7 @@ stringTest := fmt.Sprintf(`{"data": {
   "column1": "%s",
   "column2": "%s",
   "column3": %d
-}}`, column1, column2, port)
+}}`, column1, column2, column3)
 ```
 
 ### Add URL, Username and Password

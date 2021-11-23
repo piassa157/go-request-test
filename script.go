@@ -66,7 +66,7 @@ func main() {
 
 			user := requestList[i].user
 			password := requestList[i].password
-			email, _ := strconv.Atoi(requestList[i].email)
+			email := requestList[i].email
 
 			stringTest := fmt.Sprintf(`{"data": {
 				"user": "%s",
